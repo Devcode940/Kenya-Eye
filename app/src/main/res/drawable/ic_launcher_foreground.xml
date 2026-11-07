@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Neon cyan play triangle -->
+    <path
+        android:pathData="M46,40 L46,68 L69,54 Z"
+        android:fillColor="#00F5FF" />
+
+    <!-- Glowing cyan halo ring -->
+    <path
+        android:pathData="M54,54 m-24,0 a24,24 0 1,1 48,0 a24,24 0 1,1 -48,0"
+        android:strokeColor="#00F5FF"
+        android:strokeAlpha="0.45"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+
+    <!-- Magenta orbit swoosh -->
+    <path
+        android:pathData="M30,66 C38,82 70,82 78,66"
+        android:strokeColor="#FF00AA"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

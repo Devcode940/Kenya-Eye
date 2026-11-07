@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Eclipse Player</string>
+    <string name="cd_play_pause">Play or pause</string>
+    <string name="cd_fullscreen">Toggle fullscreen</string>
+    <string name="cd_pip">Picture in picture</string>
+    <string name="cd_captions">Subtitles</string>
+    <string name="cd_settings">Playback settings</string>
+    <string name="cd_cast">Cast</string>
+    <string name="cd_next">Next episode</string>
+</resources>

@@ -1,14 +1,29 @@
+# --- Archives / logs (original Kenya-Eye intent) ---
 *.tar
 *.tar.*
-*.jar
 *.exe
 *.msi
 *.deb
-*.zip
 *.tgz
 *.log
 *.log.*
 *.sig
 
-pkg/
-src/
+# Legacy upload bundle (kept out of git intentionally)
+kenya-govdash-repository-link.zip
+
+# --- Android / Gradle ---
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+*.ipr
+*.iws
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+
+# Gradle wrapper jar is REQUIRED for ./gradlew — never ignore it
+!gradle/wrapper/gradle-wrapper.jar
